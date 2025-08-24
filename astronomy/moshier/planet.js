@@ -99,7 +99,7 @@ $ns.planet.reduce = function (body, q, e) {
 
 	/* Correct position for light deflection
 	 */
-	body.position.deflection = $moshier.deflectioon.calc ( p, q, e ); // relativity
+	body.position.deflection = $moshier.deflection.calc ( p, q, e ); // relativity
 
 	/* Correct for annual aberration
 	 */

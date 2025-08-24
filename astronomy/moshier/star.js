@@ -105,7 +105,7 @@ $ns.star.reduce = function (body) {
 	/* Correct position for light deflection
 	 * relativity( p, q, e );
 	 */
-	body.position.deflectioon = $moshier.deflectioon.calc ( p, p, e ); // relativity
+	body.position.deflection = $moshier.deflection.calc ( p, q, e ); // relativity
 
 	/* Correct for annual aberration
 	 */
