@@ -1,4 +1,4 @@
-const ephemeris = require('./build/ephemeris-0.1.0.js')
+const ephemeris = require('./build/ephemeris-0.1.1.js')
 
 var date = { year: 1986, month: 1, day: 1, hours: 1, minutes: 52, seconds: 0 };
 
